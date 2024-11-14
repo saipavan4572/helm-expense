@@ -1,7 +1,7 @@
 configmap:
   port: 8080
 deployment:
-  replicas: 2
+  replicas: 3
   #imageVersion: latest     #1st run
   imageVersion: mainline-bookworm-perl      #2nd run to validate the helm versions
 service:
