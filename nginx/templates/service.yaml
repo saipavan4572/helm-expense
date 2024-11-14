@@ -12,4 +12,4 @@ spec:
     port: 80 #service-port
     #targetPort: 8080 #target-port
     targetPort: {{ .Values.configmap.port }}
-    nodePort: {{ .Values.serivce.nodePort }}
+    nodePort: {{ .Values.service.nodePort }}
